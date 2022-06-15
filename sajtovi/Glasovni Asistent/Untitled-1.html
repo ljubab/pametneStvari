@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Pavle Linta glasovni asistent
+    </title>
+    <link rel="stylesheet" href="my_style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        .header {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            z-index: 9999;
+            height: 50px;
+            font-size: 1.6rem;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            Паметне ствари
+        </div>
+        <a href="../../index.html">
+            <img src="../../home.png" alt="home">
+        </a>
+    </div>
+    <h1><b>Glasovni asistent</b></h1>
+    <hr>
+    <h3>Istorija glasovnog asistenta</h3>
+        <ul type="circle">
+            <li><strong>Radio Rex je prvi robot koji se aktivira glasom</strong></li>
+            <li><strong>1961. IBM Shoebox je kalkulator koji se aktivira na glas, prepoznavao je 16 izgovorenih reči i cifre od 0 do 9.</strong></li>
+            <li><strong>1960-te je professor sa MIT-ja (Massachusetts Institute of Technology) Joseph Weizenbaum je kreirao chatbota 
+            Elizu koja imitira komunikaciju izmedju čoveka I mašine. Kasnije je zbog kreacije dobijeno ime ljudske 
+            zabune mašinskog ponašanja sa ljudskim koji je nazvan Elizin efekat.</strong></li>
+            <li><strong>1986. IBM Shoebox dobija nadogradnju koja je nazvana Tangora. Nazvana je po najbržem daktilografu tog vremena, 
+            to je bio taktilograf sa oko 20 000 reči sa predikcijama sledeće reči koji je bio baziran na prošlosti. </strong></li>
+            <li><strong>Devedesetih godina prošlog veka je došlo do napretka u tehnologiji do današnjih asistenata koje znamo i koristimo, 
+            od cega je Dragon’s Naturally Speaking software 1997. mogao da sluša do brzine od cak 100 reci u minuti, on se i dan 
+            danas koristi kod lekara često.</strong></li>
+            <li><strong>Prvi moderni asistent je bio na Iphone 4S 4.10.2011. je bio Siri koji je slao poruke vršio pozive postavljao 
+            alarme i mnogo drugog. 2014. je Amazon izbacio Alexu uz Echo.</strong></li>
+        </ul>
+    
+    <hr>
+    <h3>Metode interakcije</h3>
+        <ul type="circle">
+            <li><strong>Tekstualno ukljucujuci koriscenje online četa, SMS, e-maila itd.</strong></li>
+            <li><strong>Glasovno koriste Amazon Alexa, Siri, Google Assistant.</strong></li>
+            <li><strong>Uz pomoć slike koja je aploudovana u slučaju Samsung Bixby-ja I Galaxy S8</strong></li>
+        </ul>
+    <hr>
+    <h3>Modeli,Metode i algoritmi</h3>
+        <ul type="circle">
+            <li><strong>Hidden Markov models(Za obicna prepoznavanje glasa se koristi. Ovaj model kao izlaz izbacuju niz simbola i veličina, 
+                koristi se zato sto glasovni signal se može gledati kao stacioni signal kratkog perioda. U kratkom vremenskom period 
+                od 10 milisekundi, govor se u principu može gledati kao Markov model za mnogo nasumicnih svrha)</strong></li>
+            <li><strong>Neuronske mreze koje sluze kao model prepoznavanja glasa ali se on ne koristi u svrhe asistenta</strong></li>
+        </ul>
+    <hr>
+    <h3>Sigurnost</h3>
+        <ul type="circle">
+            <li><strong>2018. u maju na univerzitetu Kalifornije, Berkeley, je izbacio rad koji pokazuje da audio komande 
+                koje nisu prepoznatljive ljudskom uvu mogu direktno biti ubačene u muziku ili tekstu tako da manipuliše virtuelnog asistenta. 
+                Akcije koje mogu učiniti da telefon zove nekog, otvori vebsajt ili cak transferuje novac.</strong></li>
+        </ul>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+    <style>
+        html {
+height: 100%;
+}
+body { 
+background-image: linear-gradient( to left, #257963,rgb(34, 73, 50));
+
+}
+.navigacija {
+  overflow: hidden;
+  background-color: rgb(32, 46, 42);
+}
+.navigacija a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navigacija a:hover {
+  background-color: #ddd;
+  color: rgb(78, 94, 78);
+}
+.navigacija a.active {
+  background-color: rgb(20, 26, 23);
+  color: white;
+}
+h1
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    color: rgb(238, 238, 238);
+    background: rgb(189, 186, 186 , 0.15);
+    
+
+}
+div
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: rgb(238, 238, 238);
+}
+h2
+{
+    background: rgb(30, 70, 50 , 0.15);
+}
+.jedan
+{
+    font-size: 18px;   
+}
+.dva
+{
+    font-size: 18px;
+}
+.tri
+{
+    font-size: 18px;  
+}
+.cetiri
+{
+    font-size: 18px;
+}
+
+
+    </style>
+<head>
+    <div class="navigacija">
+        <a class="active" href="#pocetna">Početna</a>
+        <a href="#1">1</a>
+        <a href="#2">2</a>
+        <a href="#3">3</a>
+        <a href="#4">4</a>
+        <a href="#5">5</a>
+        <a href="#6">6</a>
+        <a href="#7">7</a>
+        <a href="#8">8</a>
+        <a href="#9">9</a>
+        <a href="#10">10</a>
+        <a href="#11">11</a>
+        <a href="#12">12</a>
+        <a href="#13">13</a>
+        <a href="#14">14</a>
+        <a href="#15">15</a>
+        <a href="#16">16</a>
+        <a href="#17">17</a>
+        <a href="#18">18</a>
+        <a href="#19">19</a>
+        <a href="#20">20</a>
+        <a href="#21">21</a>
+      </div>
+<h1>Pametni Zvucnici</h1>
+<div>
+    
+    <pre id="jedan">
+    <img src="1.png" alt="Trulli" width="250" height="166" >
+    Zvucnici su ostali skoro nepremenjeni jos od kad su nastali 1925. godine.
+    Veoma proste gradje napravljeni od par delova, jedina promena do 2014 je
+    bila u kvalitetu zvuka i velicini drajvera. Pametni zvucnik je svoj debi 
+    napravio 2014. godine i od tad se industrija znatno promenila.
+    </pre>
+    
+    
+    
+    <h2>•Amazon alexa </h2>
+    <pre id="dva">
+
+        <img src="2.png" alt="Trulli" width="250" height="166" >
+
+        Amazon Alexa je tehnologija koju koriste Amazonovi pametni zvučnici od kojihje prvi 
+        Amazon Echo(2014). Ovakvim zvučnikom je optimalno uppravljati glasovnim komandama. 
+        Mnogi pametni zvucnici imaju takozvanu "Reč za buđenje" u slučaju Amazon Alexe 
+        to je "Alexa", dok guglovi zvucinic koriste "Hej google". Ovi zvučnici imaju 
+        brojne mogucnosti poput:
+
+        
+
+       <i><b>1.Automacije kuće</b></i>
+       <i><b>2.Naručivanja stvari sa interneta</b></i>
+       <i><b>3.Pustanje muzike</b></i>
+       <i><b>4.Primanje i slanje poruka i poziva</b></i>
+       <i><b>5.Trenutne dojave o saobraćaju</b></i>
+       <i><b>itd</b></i>
+
+
+       <img src="3.png" alt="Trulli" width="250" height="166" >
+
+       Neki od najboljih pametnih zvucnika su:
+       <a href="https://www.amazon.com/dp/B07XJ8C8F5/ref=s9_acsd_al_bw_c2_x_1_i?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-4&pf_rd_r=9Y7N8Q2JDDFWR4NXCE20&pf_rd_t=101&pf_rd_p=d1a1911b-4074-43b1-b16e-87680164fdb0&pf_rd_i=9818047011" target="_blank" >Amazon Echo</a>
+       <a href="https://www.bestbuy.com/site/google-nest-audio-smart-speaker-chalk/6428305.p?skuId=6428305&intl=nosplash" target="_blank" >Google nest</a>
+       <a href="https://www.apple.com/homepod-mini/" target="_blank" >Apple homepod mini</a>
+      
+
+    </pre>
+    <h2>•Sigurnosni problemi</h2>
+    <pre id="tri">
+        Kada su konfigurisani bez autentifikacije, pametne zvučnike mogu da aktiviraju ljudi 
+        koji nisu predviđeni korisnik ili vlasnik. Na primer, zvučnik može da čuje posetioce 
+        kuće ili kancelarije ili ljude ispred otvorenog prozora, delimičnog zida ili 
+        bezbednosne ograde. Jedan tim je pokazao sposobnost da stimuliše mikrofone 
+        pametnih zvučnika i pametnih telefona kroz zatvoren prozor. 
+        <video width="620" height="440" controls>
+            <source src="vid.mp4" type="video/mp4">
+          </video>
+    </pre>
+
+    
+</div>
+    
+
+
+
+
+</html>

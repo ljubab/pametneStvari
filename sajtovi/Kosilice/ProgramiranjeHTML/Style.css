@@ -1,0 +1,70 @@
+body{
+
+	background-color:#2596be;
+	color:black;
+	font-size: 15px;
+	font-family: Helvetica;
+	
+	
+
+}
+.klasa1 {
+	margin-left:110px;
+	margin-top:0px;
+	position:relative;  top:-234px; 
+}
+.klasa2 {
+	
+	position:relative; left:1600px; top:-1024px; 
+}
+.klasa3 {
+	
+	position:relative; left:290px; margin-top:20px; 
+	
+}
+ul {
+	list-style-type: none; /*da nema tacke nabrajanja*/
+	margin: 0; /* nema razmaka od ivice*/	
+	padding: 0; /* nema razmaka od margine*/
+	width: 5%; 
+	background-color: #f1f1f1;
+	position: fixed; /* meni je fiksiran i kada se tekst na stranici pomera*/
+	overflow: auto; /*ako je meni sa vise opcija videce se sve*/
+	border-width:3px;
+	border-color:black;
+	border-style:solid;
+	
+
+}
+li a {
+	display: block; /*ceo prostor menija je aktivan na klik*/
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+
+}
+
+li a.active {
+	background-color: #04AA6D;
+	color: white;
+
+}
+
+li a:hover:not(.active) {
+	background-color: #555;
+	color: white;
+
+}
+img{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	
+	
+}
+
+
+h1{
+	font-size: 30px;
+	text-align: center;
+}

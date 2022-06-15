@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+#header {
+    height: 100px;
+    font-weight: 600;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    visibility: hidden;
+}
+
+#header .logo {
+    padding: 30px;
+    flex: 2;
+}
+
+#header > ul {
+    flex: 3;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header > ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header > ul a:hover {
+    color: #b5b5b5;
+    transition: 0.2s;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-basis: 50%;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+#home {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#home video {
+    filter: blur(0px);
+    display: flex;
+}
+
+#home .text-over-video {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#about {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #EE972E, black);
+}
+#about2 {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, black, #EE972E);
+}
+#about2 > img {
+    width: 50rem;
+    height: 50rem;
+}
+
+#about2 .specification {
+    width: 100rem;
+    min-width: 100rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px;
+    height: fit-content;
+    color: white;
+}
+
+#about2 .specification-header {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+}
+
+.specifications {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+#about > img {
+    width: 50rem;
+    height: 50rem;
+}
+
+#about .specification {
+    width: 20rem;
+    min-width: 20rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 30px;
+    height: fit-content;
+    color: white;
+}
+
+#about .specification-header {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+}
+
+.specifications {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+#reviews {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2D2A29;
+    background: linear-gradient(to bottom, black, #1C1A1A);
+    color: white;
+
+}
+
+.user-review {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 900px;
+    height: 650px;
+    min-height: 650px;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    font-size: 4rem;
+}
+
+
+.user-review > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 90%;
+}
+
+.user-comment {
+    font-size: 1.5rem;
+}
+
+#buy {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 1;
+    border: 2px solid black;
+    display: flex;
+    padding: 2rem;
+}
+
+.product > img {
+    width: 17.5rem;
+    height: 17.5rem;
+}
+
+#buy-now {
+    background-color: #f04848;
+    border: none;
+    font-size: 3rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.description {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

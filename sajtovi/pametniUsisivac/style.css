@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+#header {
+    height: 100px;
+    font-weight: 600;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #000000;
+    color: #ffffff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+    visibility: hidden;
+}
+
+#header .logo {
+    padding: 30px;
+    flex: 2;
+}
+
+#header > ul {
+    flex: 3;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header > ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#header > ul a:hover {
+    color: #b5b5b5;
+    transition: 0.2s;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-basis: 50%;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+#home {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#home video {
+    filter: blur(5px);
+}
+
+#home .text-over-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+#about {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, black, white);
+}
+
+#about > img {
+    width: 40rem;
+    height: 40rem;
+}
+
+#about .specification {
+    border: 3px solid #000000;
+    border-radius: 1.2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#about .specification-header {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    text-decoration: underline;
+}
+
+.specifications {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px 20px;
+}
+
+#reviews {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-review {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 650px;
+    min-height: 650px;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+.user-review > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.fa.fa-star {
+    font-size: 3rem;
+}
+
+.star-checked {
+    color: orange;
+}
+
+.user-comment {
+    font-size: 1.5rem;
+}
+
+#buy {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product {
+    flex: 1;
+    border: 2px solid black;
+    display: flex;
+    padding: 2rem;
+    height: 700px;
+}
+
+.product > img {
+    width: 17.5rem;
+    height: 17.5rem;
+}
+
+#buy-now {
+    background-color: #f04848;
+    border: none;
+    font-size: 3rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.description {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#buy-now:hover {
+    background-color: #f21313;
+}
+
+#buy-now:active {
+    background-color: #f70202;
+}
+
+.model-name {
+    font-size: 3rem;
+}
+
+.buy-specifications {
+    font-size: 1.2rem;
+}
+
+.price {
+    display: flex;
+}
+
+.current-price {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.old-price {
+    font-size: 3rem;
+    font-weight: 200;
+    text-decoration: line-through;
+    font-style: italic;
+}

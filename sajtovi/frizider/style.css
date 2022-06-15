@@ -1,0 +1,124 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+body 
+    {
+    background-color: green(230, 226, 34);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color:rgb(233, 27, 27);
+        box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    text-align: left;
+  }
+
+header {
+   
+    background-color: #000000;
+    height: 110px;
+    padding: 10px 0;
+    
+}
+
+nav {
+    width: 960px;
+    margin: 10 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    margin:-8px;
+    width: 100px;
+
+}
+.sajt
+{
+    width:200px;
+}
+.sajt img
+{
+    margin:-8px;
+    width:200px;
+}
+
+
+li 
+{
+    display: inline;
+    float: left;
+}
+     
+a
+{
+    display: block;
+    padding: 8px;
+    background-color: #274C77;
+}
+ul 
+{
+    background-color: #000000;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+li 
+{
+    float: left;
+}
+li a 
+{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover 
+{
+    background-color: green;
+}
+li 
+{
+    border-right: 1px solid green;
+}
+li:last-child 
+{
+    border-right: none;
+}
+* {
+    box-sizing: border-box;
+  }
+
+    
+h2 {text-align: center;}
+p {text-align: center;}
+.tekst
+{
+    margin: 100px auto;
+    background: green;
+    position: relative;
+    width:100%;
+}
+.tekst1
+{
+    margin: 10px;
+}
+.slika
+{
+    width:19%;
+    height: 200px;
+}
